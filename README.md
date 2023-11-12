@@ -1,4 +1,4 @@
-https://insunup.github.io/rsschool-cv/cv
+https://insunup.github.io/rsschool-cv/
 ## Nina Ignatenko
 
 insunup@gmail.com
