@@ -1,7 +1,9 @@
 ## Nina Ignatenko
-nup@gmail.com
+
+insunup@gmail.com
+
 gh-insunup
---
+
 
 ##### EDUCATION
  + Currently learning JavaScript
@@ -50,4 +52,3 @@ gh-insunup
  ##### LANGUAGES
  - Russian C2 native speaker
  - English A2 beginner
-/Users/nina/Documents
