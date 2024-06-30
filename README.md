@@ -1,1 +1,1 @@
-# rsschool-cv
+https://insunup.github.io/rsschool-cv/cv
