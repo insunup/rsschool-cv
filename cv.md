@@ -18,4 +18,4 @@ GitHub:
 
 ### Photographer
 - **Period:** 2000-2014
-- **Experience:** Photography. including shooting and photo editing
+- **Experience:** Photography, including shooting and photo editing
