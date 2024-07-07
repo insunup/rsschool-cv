@@ -8,7 +8,7 @@ GitHub:
 ## Education
 - Currently learning JavaScript
 - Kuban State University (incomplete)
-- School #2, Period of Study: 1990-2001
+- School #2
 
 ## Professional Experience
 
