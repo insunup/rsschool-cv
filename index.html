@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+    <div class="left-column">
+    <img src="./assets/img/profile.jpg" alt="avatar"/></div>
+    <header>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#professional-experience" class="nav-link">Professional Experience</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="section" id="contacts">
+        <h2>CONTACTS</h2>
+        <p>Los Angeles, USA</p>
+        <p>Email: <a href="mailto:insunup@gmail.com">insunup@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/insunup">insunup</a></p>
+    </section>
+
+    <section class="section" id="education">
+        <h2>EDUCATION</h2>
+        <ul>
+            <li>Currently learning JavaScript</li>
+            <li>Udemy: QA</li>
+            <li>Kuban State University</li>
+            <li>School #2</li>
+        </ul>
+    </section>
+
+    <section class="section" id="professional-experience">
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <article>
+            <h3>Accountant</h3>
+            <p>Period: 2006-present</p>
+            <p>Experience in accounting, maintaining financial records, and preparing financial reports</p>
+        </article>
+        <article>
+            <h3>Photographer</h3>
+            <p>Period: 2000-2014</p>
+            <p>Experience in photography, including shooting and photo editing</p>
+        </article>
+    </section>
+
+    <section class="section" id="skills">
+        <h2>SKILLS</h2>
+        <ul>
+            <li>Advanced Adobe Suite: Photoshop, Illustrator</li>
+            <li>Advanced Excel</li>
+            <li>Microsoft Office: Word, Power Point</li>
+            <li>Digital design platforms: Figma, Tilda, Canva</li>
+            <li>iPhone video recording and editing: iMovie, CapCut, InShot</li>
+            <li>JavaScript Programming: Started learning JavaScript and possess basic knowledge</li>
+            <li>HTML and CSS: Experience in creating web pages using HTML and CSS</li>
+            <li>Basic Git Usage: Familiar with version control system Git</li>
+            <li>Excellent organization skills</li>
+            <li>Autonomous, self-starter, and fast learner</li>
+            <li>Attention to detail and high accuracy</li>
+            <li>Capacity to multi-task and meet deadlines</li>
+        </ul>
+    </section>
+
+    <section class="section" id="languages">
+        <h2>LANGUAGES</h2>
+        <ul>
+            <li>Russian C2: native speaker</li>
+            <li>English A2: beginner</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">
+            <img src="./assets/img/rs-school-logo.svg" alt="logo" />
+            </a>
+        </div>
+        <div class="footer-info"> 
+            <p>&copy; 2024.
+                Created by <a href="https://github.com/insunup"
+                target="_blank">insunup</a>
+            </p>
+        </div>
+    </div>
+</footer>
+</div>
+<script>
+
+    document.querySelectorAll('.nav-link').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            document.getElementById(targetId).scrollIntoView({
+                behavior:
+                'smooth'
+            })
+        })
+    })
+</script>
+</body>
+</html>
