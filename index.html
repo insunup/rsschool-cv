@@ -19,6 +19,7 @@
             <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
             <li class="nav-item"><a href="#professional-experience" class="nav-link">Professional Experience</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-link"><a href="#code" class="nav-link">Code</a>/li>
             <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
     </nav>
@@ -77,7 +78,34 @@
             <li>Capacity to multi-task and meet deadlines</li>
         </ul>
     </section>
+    <section class="section" id="code">
+        <h2>CODE</h2>
+        <pre>
+          <code>
+function accum(paramStr) {
+  const str = paramStr.toLowerCase()
+  let final = "";
 
+  for (let i = 0; i < str.length; i++) {
+    const symbol = str[i];
+
+    for (let j = 0; j <= i; j++) {
+      if (j === 0) {
+        if (i !== 0) {
+          final = final + '-' 
+        }
+        final = final + symbol.toUpperCase();
+      } else {
+        final = final + symbol;
+      }
+    }
+  } 
+
+  return final;
+}
+          </code>
+        </pre>
+    </section>
     <section class="section" id="languages">
         <h2>LANGUAGES</h2>
         <ul>
