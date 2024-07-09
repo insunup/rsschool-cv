@@ -3,7 +3,7 @@
 Email:
 [insunup@gmail.com](mailto:insunup@gmail.com)
 GitHub:
-[gh-insunup](https://github.com/insunup)
+[insunup](https://github.com/insunup)
 
 ## Education
 - Currently learning JavaScript
