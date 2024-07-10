@@ -61,7 +61,6 @@
             <p>Experience in photography, including shooting and photo editing</p>
         </article>
     </section>
-
     <section class="section" id="skills">
         <h2>SKILLS</h2>
         <ul>
@@ -87,10 +86,10 @@ function accum(paramStr) {
   const str = paramStr.toLowerCase()
   let final = "";
 
-  for (let i = 0; i < str.length; i++) {
+  for (let i = 0; i &lt; str.length; i++) {
     const symbol = str[i];
 
-    for (let j = 0; j <= i; j++) {
+    for (let j = 0; j &lt; = i; j++) {
       if (j === 0) {
         if (i !== 0) {
           final = final + '-' 
@@ -115,8 +114,6 @@ function accum(paramStr) {
         </ul>
     </section>
 </main>
-
-
 <footer>
     <div class="footer-content">
         <div class="footer-logo">
@@ -130,11 +127,9 @@ function accum(paramStr) {
                 target="_blank">insunup</a>
             </p>
         </div>
-    </div>
+     </div>
 </footer>
-</div>
 <script>
-
     document.querySelectorAll('.nav-link').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
