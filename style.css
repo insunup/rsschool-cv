@@ -136,6 +136,11 @@
         text-align: center;
     }
 
+    .experience-link {
+        color: #007bff;
+        text-decoration: none;
+    }
+
     footer {
         width: 100%;
         background-color: #f1f1f1;
